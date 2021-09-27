@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIM.WEBapi", "AIM.WEBapi\AIM.WEBapi.csproj", "{DC6F0D24-0C38-4DEE-80DB-D789F6934DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIM.Client", "AIM.Client\AIM.Client\AIM.Client.csproj", "{3A3CD90C-CAF3-4232-9020-AED951BF4969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC6F0D24-0C38-4DEE-80DB-D789F6934DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6F0D24-0C38-4DEE-80DB-D789F6934DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6F0D24-0C38-4DEE-80DB-D789F6934DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6F0D24-0C38-4DEE-80DB-D789F6934DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3CD90C-CAF3-4232-9020-AED951BF4969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3CD90C-CAF3-4232-9020-AED951BF4969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3CD90C-CAF3-4232-9020-AED951BF4969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3CD90C-CAF3-4232-9020-AED951BF4969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8634D345-7D26-45B1-B82B-7A5C7ABFBA4C}
+	EndGlobalSection
+EndGlobal
