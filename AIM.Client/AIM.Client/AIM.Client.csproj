@@ -72,6 +72,8 @@
     <Content Include="app\products\productEditView.html" />
     <Content Include="app\products\productListCtrl.js" />
     <Content Include="app\products\productListView.html" />
+    <Content Include="common\common.services.js" />
+    <Content Include="common\productResource.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -90,6 +92,8 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -128,12 +132,16 @@
     <Content Include="Scripts\bootstrap.esm.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
